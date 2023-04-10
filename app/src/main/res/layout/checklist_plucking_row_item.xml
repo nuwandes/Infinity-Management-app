@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llChecklistPlucking_row_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#80548235"
+    android:orientation="horizontal"
+    android:paddingVertical="5dp"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtRef_checklist_plucking_row_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="1"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtEmployeeNo_checklist_plucking_row_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="NO1-4406"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.3">
+
+        <TextView
+            android:id="@+id/txtEmployeeName_checklist_plucking_row_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="PUSHPARANI K"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.025">
+
+            <TextView
+                android:id="@+id/txtFirstSession_checklist_plucking_row_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="3"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.025">
+
+            <TextView
+                android:id="@+id/txtSecondSession_checklist_plucking_row_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="5"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.025">
+
+            <TextView
+                android:id="@+id/txtThirdSession_checklist_plucking_row_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="10"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.025">
+
+            <TextView
+                android:id="@+id/txtFourthSession_checklist_plucking_row_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="0"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/txtTotal_checklist_plucking_row_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="18"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2">
+
+        <TextView
+            android:id="@+id/txtFieldNo_checklist_plucking_row_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/ 13B F/N [ 6.50 Hec] SD NO3 RevSh"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2">
+
+        <TextView
+            android:id="@+id/txtWeighmentTime_checklist_plucking_row_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "10:45"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
